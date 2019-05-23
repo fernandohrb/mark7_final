@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1558611486500" stop="1558611536204">
+  <name>Login</name>
+  <title>Login</title>
+  <test-cases>
+    <test-case start="1558611498668" stop="1558611513021" status="failed">
+      <name>Usu&#xE1;rio deve ser autorizado</name>
+      <title>Usu&#xE1;rio deve ser autorizado</title>
+      <failure>
+        <message>Unable to find css "input[name=email]"</message>
+        <stack-trace>./features/support/pages.rb:7:in `faz_login'&#xD;
+./features/step_definitions/login_steps.rb:11:in `"eu fa&#xE7;o o login com {string} e {string}"'&#xD;
+features/features/login.feature:14:in `Quando eu fa&#xE7;o o login com "fernandohrb@gmail.com" e "$Change01"'</stack-trace>
+      </failure>
+      <steps>
+        <step start="1558611506658" stop="1558611506658" status="passed">
+          <name>Dados que eu acesso a p&#xE1;gina principal</name>
+          <title>Dados que eu acesso a p&#xE1;gina principal</title>
+          <attachments/>
+        </step>
+        <step start="1558611506659" stop="1558611506659" status="failed">
+          <name>Quando eu fa&#xE7;o o login com "fernandohrb@gmail.com" e "$Change01"</name>
+          <title>Quando eu fa&#xE7;o o login com "fernandohrb@gmail.com" e "$Change01"</title>
+          <attachments/>
+        </step>
+        <step start="1558611506659" stop="1558611506659" status="canceled">
+          <name>Ent&#xE3;o devo ser autenticado com sucesso</name>
+          <title>Ent&#xE3;o devo ser autenticado com sucesso</title>
+          <attachments/>
+        </step>
+        <step start="1558611506660" stop="1558611506660" status="canceled">
+          <name>E devo ver a seguite mensagem "Ol&#xE1;, Fernando Henrique Rocha Brito"</name>
+          <title>E devo ver a seguite mensagem "Ol&#xE1;, Fernando Henrique Rocha Brito"</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="20330112"/>
+        <label name="host" value="LP1383"/>
+        <label name="feature" value="Login"/>
+        <label name="story" value="Usu&#xE1;rio deve ser autorizado"/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1558611517127" stop="1558611517384" status="canceled">
+      <name>Tentativa de Login: fernandohrb@gmail.com | xpto123 | Senha inv&#xE1;lida.</name>
+      <title>Tentativa de Login: fernandohrb@gmail.com | xpto123 | Senha inv&#xE1;lida.</title>
+      <failure>
+        <message>chrome not reachable
+  (Session info: chrome=74.0.3729.157)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64)</message>
+        <stack-trace>./features/support/hooks.rb:4:in `Before'</stack-trace>
+      </failure>
+      <steps>
+        <step start="1558611517128" stop="1558611517128" status="canceled">
+          <name>Dados que eu acesso a p&#xE1;gina principal</name>
+          <title>Dados que eu acesso a p&#xE1;gina principal</title>
+          <attachments/>
+        </step>
+        <step start="1558611517128" stop="1558611517128" status="canceled">
+          <name>Quando eu fa&#xE7;o o login com "fernandohrb@gmail.com" e "xpto123"</name>
+          <title>Quando eu fa&#xE7;o o login com "fernandohrb@gmail.com" e "xpto123"</title>
+          <attachments/>
+        </step>
+        <step start="1558611517128" stop="1558611517128" status="canceled">
+          <name>Ent&#xE3;o devo ver a seguite mensagem "Senha inv&#xE1;lida."</name>
+          <title>Ent&#xE3;o devo ver a seguite mensagem "Senha inv&#xE1;lida."</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="20330112"/>
+        <label name="host" value="LP1383"/>
+        <label name="feature" value="Login"/>
+        <label name="story" value="Tentativa de Login: fernandohrb@gmail.com | xpto123 | Senha inv&#xE1;lida."/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1558611523400" stop="1558611523655" status="canceled">
+      <name>Tentativa de Login: eu@papito.net | xpto123 | Usu&#xE1;rio n&#xE3;o cadastrado.</name>
+      <title>Tentativa de Login: eu@papito.net | xpto123 | Usu&#xE1;rio n&#xE3;o cadastrado.</title>
+      <failure>
+        <message>chrome not reachable
+  (Session info: chrome=74.0.3729.157)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64)</message>
+        <stack-trace>./features/support/hooks.rb:4:in `Before'</stack-trace>
+      </failure>
+      <steps>
+        <step start="1558611523400" stop="1558611523400" status="canceled">
+          <name>Dados que eu acesso a p&#xE1;gina principal</name>
+          <title>Dados que eu acesso a p&#xE1;gina principal</title>
+          <attachments/>
+        </step>
+        <step start="1558611523400" stop="1558611523400" status="canceled">
+          <name>Quando eu fa&#xE7;o o login com "eu@papito.net" e "xpto123"</name>
+          <title>Quando eu fa&#xE7;o o login com "eu@papito.net" e "xpto123"</title>
+          <attachments/>
+        </step>
+        <step start="1558611523400" stop="1558611523400" status="canceled">
+          <name>Ent&#xE3;o devo ver a seguite mensagem "Usu&#xE1;rio n&#xE3;o cadastrado."</name>
+          <title>Ent&#xE3;o devo ver a seguite mensagem "Usu&#xE1;rio n&#xE3;o cadastrado."</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="20330112"/>
+        <label name="host" value="LP1383"/>
+        <label name="feature" value="Login"/>
+        <label name="story" value="Tentativa de Login: eu@papito.net | xpto123 | Usu&#xE1;rio n&#xE3;o cadastrado."/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1558611529673" stop="1558611529929" status="canceled">
+      <name>Tentativa de Login: eupapito.net | xpto123 | Email incorreto ou ausente.</name>
+      <title>Tentativa de Login: eupapito.net | xpto123 | Email incorreto ou ausente.</title>
+      <failure>
+        <message>chrome not reachable
+  (Session info: chrome=74.0.3729.157)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64)</message>
+        <stack-trace>./features/support/hooks.rb:4:in `Before'</stack-trace>
+      </failure>
+      <steps>
+        <step start="1558611529673" stop="1558611529673" status="canceled">
+          <name>Dados que eu acesso a p&#xE1;gina principal</name>
+          <title>Dados que eu acesso a p&#xE1;gina principal</title>
+          <attachments/>
+        </step>
+        <step start="1558611529673" stop="1558611529673" status="canceled">
+          <name>Quando eu fa&#xE7;o o login com "eupapito.net" e "xpto123"</name>
+          <title>Quando eu fa&#xE7;o o login com "eupapito.net" e "xpto123"</title>
+          <attachments/>
+        </step>
+        <step start="1558611529673" stop="1558611529674" status="canceled">
+          <name>Ent&#xE3;o devo ver a seguite mensagem "Email incorreto ou ausente."</name>
+          <title>Ent&#xE3;o devo ver a seguite mensagem "Email incorreto ou ausente."</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="20330112"/>
+        <label name="host" value="LP1383"/>
+        <label name="feature" value="Login"/>
+        <label name="story" value="Tentativa de Login: eupapito.net | xpto123 | Email incorreto ou ausente."/>
+      </labels>
+      <parameters/>
+    </test-case>
+    <test-case start="1558611535955" stop="1558611536204" status="canceled">
+      <name>Tentativa de Login:  | asdadas | Email incorreto ou ausente.</name>
+      <title>Tentativa de Login:  | asdadas | Email incorreto ou ausente.</title>
+      <failure>
+        <message>chrome not reachable
+  (Session info: chrome=74.0.3729.157)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64)</message>
+        <stack-trace>./features/support/hooks.rb:4:in `Before'</stack-trace>
+      </failure>
+      <steps>
+        <step start="1558611535956" stop="1558611535956" status="canceled">
+          <name>Dados que eu acesso a p&#xE1;gina principal</name>
+          <title>Dados que eu acesso a p&#xE1;gina principal</title>
+          <attachments/>
+        </step>
+        <step start="1558611535956" stop="1558611535956" status="canceled">
+          <name>Quando eu fa&#xE7;o o login com "" e "asdadas"</name>
+          <title>Quando eu fa&#xE7;o o login com "" e "asdadas"</title>
+          <attachments/>
+        </step>
+        <step start="1558611535956" stop="1558611535956" status="canceled">
+          <name>Ent&#xE3;o devo ver a seguite mensagem "Email incorreto ou ausente."</name>
+          <title>Ent&#xE3;o devo ver a seguite mensagem "Email incorreto ou ausente."</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="20330112"/>
+        <label name="host" value="LP1383"/>
+        <label name="feature" value="Login"/>
+        <label name="story" value="Tentativa de Login:  | asdadas | Email incorreto ou ausente."/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="20330112"/>
+    <label name="host" value="LP1383"/>
+  </labels>
+</ns2:test-suite>
